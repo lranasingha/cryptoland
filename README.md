@@ -1,2 +1,2 @@
 # cryptoland
-An attempt to create some utilities to be able to do crypto in java a bit easily.
+An attempt to make some utilities to simplify crypto key generation, encryption and decryption using Java.

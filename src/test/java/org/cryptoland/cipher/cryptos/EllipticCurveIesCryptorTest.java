@@ -1,6 +1,7 @@
 package org.cryptoland.cipher.cryptos;
 
-import org.cryptoland.cipher.keys.EllipticCurveIESKeyGenerator;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import org.cryptoland.cipher.keys.BcEllipticCurveIESKeyGenerator;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,7 +16,7 @@ public class EllipticCurveIesCryptorTest {
 
     @Before
     public void setUp() throws Exception {
-        EllipticCurveIESKeyGenerator keyPairGenerator = new EllipticCurveIESKeyGenerator();
+        BcEllipticCurveIESKeyGenerator keyPairGenerator = new BcEllipticCurveIESKeyGenerator(new BouncyCastleProvider());
         keyPair = keyPairGenerator.generate();
     }
 

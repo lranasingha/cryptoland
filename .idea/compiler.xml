@@ -25,8 +25,5 @@
         <module name="cryptoland" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cryptoland" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

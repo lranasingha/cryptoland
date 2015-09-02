@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f86a5c-a538-4ac2-a3fa-019f12fb16ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/cryptoland/cipher/keys/SunEllipticCurveIESKeyGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/bouncy_castle_providers.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/cryptoland/cipher/keys/EllipticCurveIESKeyGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/org/cryptoland/cipher/keys/BcEllipticCurveIESKeyGenerator.java" />
+    <list default="true" id="d1f86a5c-a538-4ac2-a3fa-019f12fb16ee" name="Default" comment="Run encryption/decryption rounds using RSA, EC algorithms with BouncyCastle and SunEC provider">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/cryptoland/cipher/CryptoDemo.java" afterPath="$PROJECT_DIR$/src/main/java/org/cryptoland/cipher/CryptoDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/cryptoland/cipher/cryptos/EllipticCurveIesCryptorTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/cryptoland/cipher/cryptos/EllipticCurveIesCryptorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cryptoland.iml" afterPath="$PROJECT_DIR$/cryptoland.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cryto-gen.iws" />
@@ -107,8 +101,8 @@
       <file leaf-file-name="CryptoDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/cryptoland/cipher/CryptoDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.512987">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state vertical-scroll-proportion="-0.09577922">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -606,6 +600,13 @@
       <option name="number" value="Default" />
       <updated>1436444598559</updated>
     </task>
+    <task id="LOCAL-00001" summary="Run encryption/decryption rounds using RSA, EC algorithms with BouncyCastle and SunEC provider">
+      <created>1441143858483</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1441143858483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -648,6 +649,13 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Run encryption/decryption rounds using RSA, EC algorithms with BouncyCastle and SunEC provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Run encryption/decryption rounds using RSA, EC algorithms with BouncyCastle and SunEC provider" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1091,8 +1099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/cryptoland/cipher/CryptoDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.512987">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state vertical-scroll-proportion="-0.09577922">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

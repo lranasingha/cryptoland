@@ -49,7 +49,7 @@ public class CryptoDemo {
     }
 
     private static void printDuration(final String algorithm, final int rounds, final Duration elapsed) {
-        out.println(format("Time taken to do %d rounds of encryption/decryption using %s algorithm = %dms", rounds, algorithm, elapsed.toMillis()));
+        out.println(format("Time taken to do %d rounds of encryption/decryption using %s algorithm = %dms", rounds, algorithm, elapsed.toMillis()) + "\n");
     }
 
     private static Supplier<Duration> timedExecutionOf(Consumer<String> task, final String input, final int times) {
